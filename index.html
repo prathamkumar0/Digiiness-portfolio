@@ -54,13 +54,15 @@
     display:flex; align-items:center; justify-content:space-between;
     padding: 18px 8vw;
   }
-  .logo{
-    font-family: var(--font-display);
-    font-weight:800;
-    font-size:1.4rem;
-    letter-spacing:0.5px;
-    color: var(--cream);
-  }
+ .logo{
+    display:flex;
+    align-items:center;
+}
+
+.logo img{
+    height:55px;
+    width:auto;
+}
   .logo span{ color: var(--gold); }
   .logo small{
     display:block;
@@ -555,7 +557,9 @@
 </section>
  
 <footer>
-  <div class="logo">DIGII<span>NESS</span></div>
+<div class="logo">
+    <img src="images/digiiness-logo.webp" alt="Digiiness Logo">
+</div>
   <div class="footer-links">
     <a href="https://digiiness.com">digiiness.com</a>
     <a href="tel:+918171193322">+91 81711 93322</a>
